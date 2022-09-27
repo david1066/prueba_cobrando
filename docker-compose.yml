@@ -1,0 +1,8 @@
+services:
+  app: 
+    image: nodeimage
+    container_name: nodeserver
+    build: ./
+    restart: always
+    ports: 
+    - "1234:3000"

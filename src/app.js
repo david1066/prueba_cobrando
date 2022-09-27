@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 var bodyParser = require('body-parser');
-const PORT = process.env.PORT || 3000;
+const PORT = 1234;
 const sequelize = require('./database/db');
 const Departamento = require('./database/models/departamento');
 
